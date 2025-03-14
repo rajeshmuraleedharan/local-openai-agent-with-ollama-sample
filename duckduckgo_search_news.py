@@ -16,7 +16,7 @@ current_date = datetime.now().strftime("%Y-%m-%d")
 api_key = os.getenv("OPENAI_API_KEY")
 
 # Define the model to be used
-model_name = "llama3.2"  # Adjust as needed
+model_name = "llama3.2" 
 
 # Initialize the OpenAIChatCompletionsModel with the specified model and API client
 model = OpenAIChatCompletionsModel(
