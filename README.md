@@ -1,6 +1,6 @@
 # Local OpenAI Agent with Ollama Sample
 
-This repository provides a sample application demonstrating how to run a local AI agent using [Ollama](https://ollama.com/), an open-source tool for running large language models locally. The project mimics the behavior of an OpenAI-like agent, offering both a web-based chat interface and a simple command-line example.
+This repository provides a sample application demonstrating how to run a local OpenAI agent using [Ollama](https://ollama.com/), an open-source tool for running large language models locally. The project shows how to Create AI Agents Locally with OpenAI Agents SDK & Ollama, offering both a web-based chat interface and a simple command-line example.
 
 ## Features
 - **Single Agent CLI Example**: A standalone script (single-agent-assistant.py) to query the Ollama agent directly from the terminal.
