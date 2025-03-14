@@ -43,3 +43,4 @@ To run this script, execute it with Python:
 ```bash
 chainlit run .\agent-assistant-ui.py
 ```
+![image](https://github.com/user-attachments/assets/92b4d04d-a6c1-491b-9057-6065899537b6)
