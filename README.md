@@ -30,3 +30,4 @@ To run this script, execute it with Python:
 ```bash
 python .\single-agent-assistant.py
 ```
+![image](https://github.com/user-attachments/assets/81fd2a3a-5f66-41e8-b6df-15b82c86e03f)
