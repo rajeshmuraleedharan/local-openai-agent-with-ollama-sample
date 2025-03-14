@@ -1,27 +1,38 @@
-# Local OpenAI Agents with Ollama
+# Local OpenAI Agent with Ollama Sample
 
-This repository contains sample implementations of LLM agents using Google Gemma 3 and other models like Qwen2 and GPT-2. The goal is to provide a comprehensive guide and examples for developers interested in leveraging LLM technology.
+This repository provides a sample application demonstrating how to run a local AI agent using [Ollama](https://ollama.com/), an open-source tool for running large language models locally. The project mimics the behavior of an OpenAI-like agent, offering both a web-based chat interface and a simple command-line example.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Features
+- **Single Agent CLI Example**: A standalone script (single-agent-assistant.py) to query the Ollama agent directly from the terminal.
+- **Multi Agents CLI Example**: A standalone script (duckduckgo_search_news.py) to query multiple Ollama agent directly from the terminal.
+- **Web UI**: A Chainlit-based interface for chatting with the Ollama agent in real-time (agent-assistant-ui.py).
+- **Local Execution**: Runs entirely offline, leveraging Ollama’s capabilities.
 
-
-## Introduction
-To get started, clone the repository and install the necessary dependencies:
-
-```bash
-1) Download - download https://ollama.com/download
-2) run "ollama pull gemma3" from your vscode cmd
-3) run "ollama pull qwen2:0.5b" from your vscode cmd
-4) pip install -U openai-agents chainlit duckduckgo-search python-dotenv httpx
-5) Create a .env file in your workspace root and add variables
+## Prerequisites
+- Python 3.8 or higher
+- [Ollama](https://ollama.com/) installed locally
+- A compatible language model downloaded via Ollama (e.g., `llama3` or similar)
+- pip install -U openai-agents chainlit duckduckgo-search python-dotenv httpx
+- Create a .env file in your workspace root and add variables
     OPENAI_API_KEY: ccxxxxxccvv
 
-```
+
+## Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/rajeshmuraleedharan/local-openai-agent-with-ollama-sample.git
+   cd local-openai-agent-with-ollama-sample
+   ```
+2. Set Up a Virtual Environment (optional but recommended)
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+3. Install Dependencies
+    ```bash
+    pip install ollama
+    ollama pull llama3
+    ```
 
 #Running the single-agent-assistant.py Script
 The single-agent-assistant.py demonstrates about how to create a Single OpenAI Agent
