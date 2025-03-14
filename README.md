@@ -31,3 +31,15 @@ To run this script, execute it with Python:
 python .\single-agent-assistant.py
 ```
 ![image](https://github.com/user-attachments/assets/81fd2a3a-5f66-41e8-b6df-15b82c86e03f)
+
+#Running the duckduckgo_search_news.py Script - Multi Agents news search
+To run this script, execute it with Python: 
+```bash
+python .\duckduckgo_search_news.py
+```
+
+#Running the agent-assistant-ui.py -  Multi Agents news search via UI
+To run this script, execute it with Python: 
+```bash
+chainlit run .\agent-assistant-ui.py
+```
